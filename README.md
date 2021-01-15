@@ -4,4 +4,6 @@
 ![Actions Status](https://github.com/Boganowskiy/frontend-project-lvl1/workflows/linting/badge.svg)
 
 [Asciinema с установкой и запуском brain-even](https://asciinema.org/a/gZgcvCChb7Ek2t0auoIS6DdFI)  
-[Asciinema с установкой и запуском brain-calc](https://asciinema.org/a/trjPvj2nh7xyE9uqwLgIMDBIt)
+[Asciinema с установкой и запуском brain-calc](https://asciinema.org/a/trjPvj2nh7xyE9uqwLgIMDBIt)  
+[Asciinema с установкой и запуском brain-gcd](https://asciinema.org/a/dmniePMPi3O1VFGBFxgUN53NV)
+
