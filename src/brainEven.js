@@ -1,8 +1,7 @@
 import game from './index.js';
+import getRandomNumber from './getRandomNumber.js';
 
 const isEven = (num) => num % 2 === 0;
-
-const getRandomNumber = (max) => Math.floor(Math.random() * Math.floor(max));
 
 const getCorrectAnswer = (number) => (isEven(number) ? 'yes' : 'no');
 

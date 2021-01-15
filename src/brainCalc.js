@@ -1,8 +1,7 @@
 import game from './index.js';
+import getRandomNumber from './getRandomNumber.js';
 
 const greeting = 'What is the result of the expression?';
-
-const getRandomNumber = (max) => Math.floor(Math.random() * Math.floor(max));
 
 const add = (num1, num2) => Number(num1) + Number(num2);
 const minus = (num1, num2) => num1 - num2;
