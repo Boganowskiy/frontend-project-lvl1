@@ -8,7 +8,6 @@ const getRandomNumber = (max) => Math.floor(Math.random() * Math.floor(max));
 const game = () => {
   const maxNumber = 100;
   const randomNumber = getRandomNumber(maxNumber);
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   const userAnswer = getUserAnswer(`Question: ${randomNumber} `);
   console.log(`Your answer: ${userAnswer}`);
   const correctAnswer = (isEven(randomNumber)) ? 'yes' : 'no';
@@ -25,6 +24,7 @@ const isGameFinishedFailed = () => game() !== 'success';
 
 export default () => {
   const username = brainGames();
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i <= 2; i += 1) {
     if (isGameFinishedFailed()) {
       console.log(`Let's try again, ${username}!`);
