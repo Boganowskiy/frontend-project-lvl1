@@ -12,7 +12,7 @@ const getProgression = (lengthOfProgression, startOfProgression, stepOfProgressi
   return progression;
 };
 
-const removeRandomProgressionElement = (progression, position) => {
+const removeRandomElement = (progression, position) => {
   const value = progression[position];
   const newProgression = progression.slice();
   newProgression[position] = '..';
@@ -32,7 +32,8 @@ export default () => {
     const progressionStep = getRandomNumber(maxNumber);
     const removedIndex = getRandomNumber(progressionLength);
     const currentProgression = getProgression(progressionLength, progressionStart, progressionStep);
-    const [task, correctValue] = removeRandomProgressionElement(currentProgression, removedIndex);
+    const [progression, correctValue] = removeRandomElement(currentProgression, removedIndex);
+    const task = progression.join(' ');
     questions.push(task);
     correctAnswers.push(String(correctValue));
   }

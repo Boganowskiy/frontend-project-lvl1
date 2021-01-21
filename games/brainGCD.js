@@ -18,7 +18,7 @@ export default () => {
   for (let i = 0; i < numOfRounds; i += 1) {
     const number1 = getRandomNumber(maxNumber);
     const number2 = getRandomNumber(maxNumber);
-    questions.push(`${number1}, ${number2}`);
+    questions.push(`${number1} ${number2}`);
     const correctAnswer = String(getGcd(number1, number2));
     correctAnswers.push(correctAnswer);
   }
