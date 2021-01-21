@@ -1,5 +1,5 @@
-import game from './index.js';
-import getRandomNumber from './getRandomNumber.js';
+import game from '../src/index.js';
+import getRandomNumber from '../src/getRandomNumber.js';
 
 const greeting = 'What is the result of the expression?';
 

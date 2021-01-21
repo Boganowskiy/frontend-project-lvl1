@@ -1,5 +1,5 @@
-import game from './index.js';
-import { getRandomNumberMinMax, getRandomNumber } from './getRandomNumber.js';
+import game from '../src/index.js';
+import { getRandomNumberMinMax, getRandomNumber } from '../src/getRandomNumber.js';
 
 const greeting = 'What number is missing in the progression?';
 
